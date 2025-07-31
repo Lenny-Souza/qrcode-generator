@@ -1,8 +1,15 @@
-# Gerador de QR-CODE🧙🏻
+# Gerador de QR-CODE🔮
 Nessa aplicação podemos gerar QR Code reais usando Inteligência Artificial(AI)
 <br>
 
-# Funcionalidades🤖
-- Visual dinâmico 
-- Interações claras
+# Funcionalidades🦾
+- Interface moderna
+- Interação objetiva
+- Criação em tempo real
+<br>
+
+# Ferramentas🔨
+- Css puro
+- React + vite
+
 
