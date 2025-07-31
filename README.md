@@ -7,6 +7,7 @@ Nessa aplicação podemos gerar QR Code reais usando Inteligência Artificial(AI
 - Interação objetiva
 - Criação em tempo real
 <br>
+
 ## Ferramentas🔨
 - Vite
 - React
