@@ -1,0 +1,87 @@
+/* src/App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #f597b0 0%, #37118f 100%);
+}
+
+.container {
+    width: 100%;
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.qrcode {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0 auto 1rem;
+    background: #e5e7eb;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    p {
+        color: #888;
+    }
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.btn {
+    background: #37118f;
+    border: 1px solid #999;
+    color: #eee;
+    padding: 0.5rem 1rem;
+    margin: 0 0.3rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+.btn:hover {
+    border-color: #666;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+i {
+    font-style: normal;
+}

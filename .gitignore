@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+node_modules/
+.env
+dist/
+
+__pycache__/
+*.pyc
+.env
+venv/
+
+public
+
+# Ignorar o arquivo de configuração do ESLint
+eslint.config.js
+
+# Ignorar a pasta "assets" dentro de "src"
+src/assets/
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
